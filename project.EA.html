@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        header{
+            background-color: #2196f3;
+            height: 100vh; 
+            color: white;
+
+             
+        }
+        p{
+            font: 1em sans-serif;
+            height:100px;
+             width:55%;
+             padding:5px;
+             border:5px;
+             
+
+        }
+        header h1{
+            margin: 0;
+            color: white;
+  position: absolute;
+  top: 170px;
+  right:400px;
+  width:100vh;
+  height:50vh;
+        
+        }
+        body{
+            margin: 0;
+            font-size: 25px;
+            background-color:#f0f8ff ;
+        }
+        h1{
+            font-family:monospace;
+            font-size: 50px;
+             color: #2196f3;
+             font-size: 50px;
+             border:82px;
+            padding:25px;
+
+             
+        }
+        .button{
+            height: 40px;
+            width: 140px;
+            border-radius: 19px;
+           cursor: pointer;
+           position: relative;
+          top:36vh;
+        left:65vh;
+          }
+        main{
+            padding: 20px;
+        }
+        section{
+            height: 100vh;
+            border: 1px solid gray ;
+            border-radius: 25px;
+            margin-bottom: 20px;
+        }
+       .button:hover{
+        background-color:burlywood;
+       }
+        img{
+            height: 600px;
+            position: absolute;
+            right: 20vh;
+            top:119vh;
+           
+        }
+        h2{
+            border:82px;
+            padding:25px;
+           position:relative;
+           top:10vh;
+        }
+        h5{
+            position:relative;
+            top:40vh;
+            left: 2vh;
+            font-family: 'Times New Roman';
+            font: size:1000px;
+            
+        }
+        button{
+            padding:10px;
+            position: absolute;
+            left:35px;
+            color: black;
+             height: 40px;
+            width: 140px;
+            
+
+
+
+    }
+    footer{
+        height:70px;
+        background-color: black;
+        color: azure;
+    }
+       
+          
+    </style>
+</head>
+<body>
+    <header>
+<h1>welcome to my portfolio</h1> 
+<a href="#about">
+    <button class="button">about</button></a>
+<a href="#skills">
+    <button class="button">skills</button></a>
+<a href="#contact">
+    <button class="button">contact</button></a>
+
+
+    </header>
+    <main>
+        <section id="about">
+             <h1> <u>about</u> </h1>
+            <h2> hii this is ESWAR ARJUN......</h2>
+            <br>
+            <img src="Eswarpersonal.jpeg" alt="jai babu">
+        </br>
+            <p>I am 18 years old and.I am pursuing b.tech first year at
+             kkr and ksr institute of technlogy and sciences.in the stream of INFORMATION TECHONOLOGY. </p>
+             <p> I'm always looking for new opportunities
+                 to learn and grow, so feel free to browse my projects and get in touch if you'd like to collaborate."</p>
+    
+
+
+        </section>
+        <section id="skills">
+            <h1> <u>my skills</u></h1>
+           <table border="1" cellpadding="5" cellspacing="0">
+  <tr>
+    <th>Category</th>
+    <th>Skills</th>
+  </tr>
+  <tr>
+    <td>languages known</td>
+    <td>JavaScript, HTML,CSS,C language,React.</td>
+  </tr>
+  <tr>
+    <td>Soft Skills</td>
+    <td>Communication, Team work,team leading, Time management.</td>
+  </tr>
+  <tr>
+    <td>technical skills</td>
+    <td>Web development, UI/UX designing, Digital marketing,Editing.</td>
+  </tr>
+</table>
+<h5>
+Beyond coding and projects, I've also got a knack for creating hilarious memes.
+    
+   <br> want to check out my meme page? </br><a href="https://www.instagram.com/rechipoku_sachipotav?utm_source=ig_web
+    _button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><button>Visit me</button></a></br></h5>
+
+
+<style>
+  table {
+    border-collapse: collapse;
+    width:50%;
+    position: absolute;
+    left: 50px;
+  }
+  th, td {
+    border: 2px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f0f0f0;
+  }
+</style>
+            
+        </section>
+        <section id="contact">
+            <h1><u>contact me</u></h1>
+<button onclick="abc.showModal()">click this!</button>
+       <dialog id="abc">
+        
+        <h1><u>fill me up</u></h1>
+        
+            <p> if you have time just fill up the form:</p>
+            <form action="">
+                name : <br>
+               <label form="name"></label>
+               <input type="text" placeholder="enter your name:">
+            </br>
+                 email: <br>
+                <label form="email"></label>
+               <input type="email" placeholder="enter your email"></br>
+                     phone number  : <br>
+                <label form="phone number"></label>
+               <input type="number" placeholder="enter ur phn no.">
+</br><br>
+               <b> choose your gender</b>  
+              male<input name="radio" value="male" type="radio">
+            female<input name="radio" value="female" type="radio">
+            
+
+               <br><label for="bio"> bio (up to 200 characters)</label>
+               <input type="text" placeholder="write anything...."> </br>
+
+               <button type="submit">submit </button>
+                <button onclick="abc.close()">submit</button>
+</br>
+
+            </form>
+            </section>
+
+      
+       
+       </dialog>
+         </section>
+    </main>
+    <footer>
+
+        <br>this is portfolio is according to @2026</br>
+    </footer>
+   
+</body>
+</html>
